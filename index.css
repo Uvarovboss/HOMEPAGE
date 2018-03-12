@@ -146,6 +146,14 @@ a{
 .foto-content{
 	padding-left: 260px;
 }
+.foto-content div{
+	margin-left: 100px;
+}
+.foto-content div img{
+	width: 90%;
+	height: 30%;
+
+}
 .contact{
 	padding-left: 250px;
 	text-align: center;
