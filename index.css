@@ -2,6 +2,7 @@ body{
 	margin: 0 auto;
 	padding: 0;
 	background-color: #A9A9F5;
+	max-width: 1900px;
 }
 header{
 	position: fixed;
