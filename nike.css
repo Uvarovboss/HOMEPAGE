@@ -1,0 +1,101 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	background-color: #A9A9F2;
+	max-width: 1900px;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 250px;
+	background-color:#0B0B3B;
+}
+.lago{
+	width: 200px;
+	height: 100px;
+}
+.lago img{
+	width: 100%;
+}
+.hover ul{
+	padding: 0;
+}
+hr{
+	margin: 0;
+}
+.hover li{
+	list-style: none;
+	line-height: 1,5;
+	transition: all 2s;
+	text-align: right;
+	padding: 5px;
+}
+.hover li:hover{
+	background-color: blue;
+	transition: all 2s;
+}
+ li a{
+	text-decoration: none;
+	font-size: 20px;
+	transition: all 1s;
+	color: white;
+	margin-left: 10px;
+}
+li a:hover{
+	color: black;
+}
+/*второй список*/
+.two li{
+	list-style: none;
+	text-align: right;
+	margin: 5px 0px 0px 0px;
+	padding:5px;
+	color: white;
+}
+.two ul{
+	margin-top: 20px;
+	border-bottom:solid grey 2px;
+}
+.top{
+	margin-top: -10px;
+	text-align: right;
+	color: white;
+}
+.top ul{
+	list-style: none;
+	color: blue;
+	font-size: 25px;
+	padding: 15px;
+}
+/*третий список*/
+.icon li{
+	list-style: none;
+}
+.icon ul{
+	display: flex;
+}
+
+.headh1{
+	padding-left: 260px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	background-color:#0B0B3B;
+	color: white;
+}
+.headh1 h1{
+	box-shadow: 0 4px;
+
+}
+.nike{
+	padding-left: 260px;
+	display: flex;
+	justify-content: center;
+	font-size: 70px;
+}
+.foto{
+	padding-left: 250px;
+	margin-left: 25px;
+}

@@ -11,6 +11,12 @@ header{
 	height: 100%;
 	width: 250px;
 	background-color:#0B0B3B;
+	float: left;
+}
+.position{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
 .lago{
 	width: 200px;
@@ -28,7 +34,7 @@ hr{
 .hover li{
 	list-style: none;
 	line-height: 1,5;
-	transition: all 3s;
+	transition: all 2s;
 	text-align: right;
 	padding: 5px;
 }
@@ -75,6 +81,7 @@ li a:hover{
 }
 .icon ul{
 	display: flex;
+	padding: 0;
 }
 
 .headh1{
@@ -147,7 +154,7 @@ a{
 	padding-left: 260px;
 }
 .foto-content div{
-	margin-left: 100px;
+	margin:0 auto;
 }
 .foto-content div img{
 	width: 90%;
@@ -180,6 +187,7 @@ form{
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 input{
 	margin-top: 10px;
@@ -197,3 +205,51 @@ input{
 i{
 	margin-right: 10px;
 }
+@media screen and (max-width: 1100px){
+	.pictures2{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.pictures2 p{
+		width: 300px;
+	}
+	.border img{
+
+	}
+ }
+ @media screen and (max-width: 600px){
+ 	header{
+ 		width: 220px;
+ 	}
+ 	.icon ul {
+ 		padding: 0;
+ 	}
+ 	.pictures2 p{
+		width: 250px;
+	}
+	.foto-content{
+	padding-left: 200px;
+}
+ }
+ @media screen and (max-width: 320px){
+ 	header{
+ 		width: 120px;
+ 	}
+ 	.icon{
+ 		display: none;
+ 	}
+ 	.position{
+ 		display: flex;
+/* 		flex-direction: column;*/
+ 	}
+ 	.lago{
+	width: 100px;
+	height: 100px;
+	}
+.lago img{
+	width: 100%;
+	}
+	.foto-content{
+	padding-left: 155px;
+}
+ }
