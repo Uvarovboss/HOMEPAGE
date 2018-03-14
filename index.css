@@ -231,6 +231,60 @@ i{
 	padding-left: 200px;
 }
  }
+  @media screen and (max-width: 550px){
+  	header{
+  		height: 290px;
+  		width: 120px;
+ 		background: rgba( 255, 0, 0, 0.2);
+  	}
+  	p{
+  		width: 100%;
+  	}
+  	.lago{
+	width: 100px;
+	height: 100px;
+	}
+.lago img{
+	width: 100%;
+		}
+		.top{
+  		display: none;
+  	}
+  	.two{
+  		display: none;
+  	}
+  	.icon{
+  		display: none;
+  	}
+  	.headh1{
+  		display: none;
+  	}
+  	.contact{
+	padding-left: 10px;
+ }
+ article{
+ 	padding-left: 10px;
+ }	
+ .foto-content{
+	padding-left: 10px;
+}
+footer{
+	padding-left: 10px;
+}
+.inpt1{
+	width: 270px;
+}
+.inpt2{
+	width: 270px;
+}
+.inpt3{
+	width: 270px;
+}
+.fond_logo{
+	padding-left: 10px;
+}
+}
+
   @media screen and (max-width: 350px){
   	header{
   		height: 290px;
@@ -281,6 +335,7 @@ footer{
 	width: 270px;
 }
   }
+
  @media screen and (max-width: 320px){
  	header{
  		width: 120px;
