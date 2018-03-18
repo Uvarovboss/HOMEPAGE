@@ -235,7 +235,7 @@ i{
   	header{
   		height: 290px;
   		width: 120px;
- 		background: rgba( 255, 0, 0, 0.2);
+ 		background: rgba(32, 32, 216, 0.25);
   	}
   	p{
   		width: 100%;
@@ -289,7 +289,7 @@ footer{
   	header{
   		height: 290px;
   		width: 120px;
- 		background: rgba( 255, 0, 0, 0.2);
+ 		background: rgba(32, 32, 216, 0.25);
   	}
   	.lago{
 	width: 100px;
@@ -339,11 +339,10 @@ footer{
  @media screen and (max-width: 320px){
  	header{
  		width: 120px;
- 		background: rgba( 255, 0, 0, 0.2);
+ 		background: rgba(32, 32, 216, 0.25);
  	}
  	.position{
  		display: flex;
-/* 		flex-direction: column;*/
  	}
  	.lago{
 	width: 100px;
