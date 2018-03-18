@@ -155,6 +155,8 @@ a{
 }
 .foto-content div{
 	margin:0 auto;
+	display: flex;
+	justify-content: center;
 }
 .foto-content div img{
 	width: 90%;
