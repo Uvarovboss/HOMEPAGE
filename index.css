@@ -185,6 +185,7 @@ footer div{
 	margin-right: 50px;
 }
 form{
+	margin-bottom: 20px;
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
@@ -196,6 +197,7 @@ input{
 }
 .inpt1{
 	width: 300px;
+	margin: 0;
 }
 .inpt2{
 	width: 300px;
